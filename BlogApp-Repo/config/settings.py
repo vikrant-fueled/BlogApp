@@ -69,7 +69,7 @@ if DATABASES == {'default': {}}:
 
 ########## GENERAL CONFIGURATION
 # See: https://docs.djangoproject.com/en/dev/ref/settings/#time-zone
-TIME_ZONE = 'America/Los_Angeles'
+TIME_ZONE = 'Asia/Kolkata'
 
 # See: https://docs.djangoproject.com/en/dev/ref/settings/#language-code
 LANGUAGE_CODE = 'en-us'
@@ -153,6 +153,7 @@ THIRD_PARTY_APPS = (
 # Apps specific for this project go here.
 LOCAL_APPS = (
     'users',  # custom users app
+    'posts', # BLOGPOSTS
     # Your stuff: custom apps go here
 )
 
